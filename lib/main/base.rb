@@ -73,7 +73,7 @@ module Main
       fattr( 'synopsis' ){ Main::Usage.default_synopsis(self) }
       fattr( 'description' )
       fattr( 'usage' ){ Main::Usage.default_usage self } 
-      fattr( 'modes' ){ Main::Mode.list }
+      fattr( 'modes' ){ Mode.list }
       fattr( 'mode_definitions' ){ Array.new }
       fattr( 'mode_name' ){ 'main' }
       fattr( 'parent' ){ nil }
